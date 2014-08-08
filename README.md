@@ -24,9 +24,9 @@ http://github.com/fourroses666/evo-revo-login
  
 ## Updates
  
-### 05.08.2014
+### 08.08.2014
 
- * Added read me, screenshot and some minor changes
+ * First version uploaded
 
 ## Contributor
 
