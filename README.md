@@ -1,16 +1,23 @@
-MODX Evolution Manager theme
+MODX Evolution Manager theme with Revo 2.3 style 
 ============================
+Forked from Evo Revo Theme by fourroses666
+https://github.com/fourroses666/evo-revo-theme
+Mixed with MODx Flat https://github.com/Nicola1971/MODxFLAT-Theme
 
-![screenshot](https://raw.github.com/fourroses666/evo-revo-theme/master/screendump1.jpg)
+![evo revo flat](https://raw.githubusercontent.com/Nicola1971/evo-revo-FLAT/master/rc1-screenshot.jpg)
 
-![screenshot](https://raw.github.com/fourroses666/evo-revo-theme/master/screendump2.jpg)
+## News and Updates
 
-![screenshot](https://raw.github.com/fourroses666/evo-revo-theme/master/screendump3.jpg)
+### RC1.1 (first release)
 
-Also take a look at evo-revo-login which belongs together 
-http://github.com/fourroses666/evo-revo-login
-
-![screenshot](https://raw.github.com/fourroses666/evo-revo-theme/master/screenshot.png)
+* Dashboard Revolution style (from MODx Flat https://github.com/Nicola1971/MODxFLAT-Theme)
+* iconset (from MODx Flat https://github.com/Nicola1971/MODxFLAT-Theme)
+* support for OnManagerWelcomeCustom-plugin https://github.com/Nicola1971/OnManagerWelcomeCustom-plugin
+* integrated awesome fonts 
+* CSS restyle of tree menu (more Revo style)
+* fix missing modx icon
+* fix supplemental Nav bar issue
+* changed theme name
 
 ## Requirements
 
@@ -18,19 +25,9 @@ http://github.com/fourroses666/evo-revo-login
 
 ## Installation
 
- * Upload directory "EvoRevoTheme" to "/manager/media/style/"
+ * Upload directory "EvoRevoFLAT" to "/manager/media/style/"
  * Login your MODX manager and go to Tools > Configuration > Interface & Features > Manager Theme. 
- * Choose "EvoRevoTheme" and save.
+ * Choose "EvoRevoFLAT" and save.
  
-## Updates
- 
-### 08.08.2014
-
- * First version uploaded
-
-## Contributor
-
- * fourroses666 (http://github.com/fourroses666)
-
-
-This is originally build by someone for Revolution and customised by me :)
+Also take a look at evo-revo-login which belongs together 
+http://github.com/fourroses666/evo-revo-login
