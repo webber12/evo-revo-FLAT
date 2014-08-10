@@ -23,12 +23,12 @@ function doHideShow(divName){
 			<div id="idShowHide1" class="sectionBody">
 
 
-                         <span class="wm_button azureRevo" style="border:0">[+OnManagerWelcomePrerender+]</span>
-                       <span class="wm_button azureRevo" style="border:0">[+SecurityIcon+]</span>
-                        <div class="wm_button azureRevo" style="border:0">[+WebUserIcon+]</div>
-                        <div class="wm_button azureRevo" style="border:0">[+ModulesIcon+]</div>
-                        <div class="wm_button azureRevo" style="border:0">[+ResourcesIcon+]</div>
-                        <div class="wm_button azureRevo" style="border:0">[+BackupIcon+]</div>
+                         <span class="wm_button smeraldRevo" style="border:0">[+OnManagerWelcomePrerender+]</span>
+                       <span class="wm_button smeraldRevo" style="border:0">[+SecurityIcon+]</span>
+                        <div class="wm_button smeraldRevo" style="border:0">[+WebUserIcon+]</div>
+                        <div class="wm_button smeraldRevo" style="border:0">[+ModulesIcon+]</div>
+                        <div class="wm_button smeraldRevo" style="border:0">[+ResourcesIcon+]</div>
+                        <div class="wm_button smeraldRevo" style="border:0">[+BackupIcon+]</div>
                                            <br style="clear:both;height:1px;margin-top: -1px;line-height:1px;font-size:1px;" />
 
 
