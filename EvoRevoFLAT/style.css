@@ -1090,7 +1090,7 @@ a.hometblink:hover {
 	border-right: 0 none;
 	/*background-image: url(images/misc/modx-icon-color.svg);*/
 	background-image: url(images/misc/modx-logo@2x.png);
-	background-position: 5px 8px;
+	background-position: 3px 8px;
     background-repeat: no-repeat;
     background-size: 50px 50px;
     image-rendering: optimizequality;
@@ -1493,13 +1493,13 @@ a.hometblink,a.hometblink img {
 
 .wm_button {
 	float:left;
-	margin:0 24px 2px 0;
+	margin:0 20px 2px 0;
 	text-align:center;
 }
 
 .rtl .wm_button {
 	float:right;
-	margin:0 0 2px 24px;
+	margin:0 0 2px 20px;
 }
 
 /* -------------------------[ Welcome Page ]--- */
@@ -2222,6 +2222,13 @@ display: block;
 .dashrow {
 	clear:both;
 }
+.dashboard .sectionBody {
+	margin:0 15px 15px;
+}
+.dashboard .sectionHeader {
+	margin:0 15px 0;
+}
+
 .dashboard-block-half{float:left; width:50%}
 .dashboard-block-full{ width:100%; height:auto; clear:both}
 .dashboard-block-content em{font-style:italic}
@@ -2256,21 +2263,6 @@ padding:6px;
 background-color: #FFF;
 border:none;
 } 
-
-.dashboard-block-content div.sectionBody i, .dashboard-block-half div.sectionBody i, .dashboard-block-full div.sectionBody i
-{
-	color: #dedede;
-	display: block;
-	float: left;
-	margin:3px 8px 8px 8px;
-}
-.dashboard-block-content div.sectionBody li, .dashboard-block-half div.sectionBody li, .dashboard-block-full div.sectionBody ul li
-{
-list-style-type: none;
-border-bottom: 1px solid #dcdcdc;
-display:block;
-padding: 5px 0 5px 5px;
-}
 .dashboard-block-content div.sectionBody li:hover, .dashboard-block-half div.sectionBody li:hover {background: #f8f8f8;}
 .dashboard-block-content div.sectionBody li span a , .dashboard-block-half div.sectionBody li span a {font-weight: bold;font-size:13px;}
 .dashboard-block-content ul li a {
@@ -2280,11 +2272,11 @@ margin:3px 8px 8px 0px;}
 .dashboard-block-full div.sectionBody a i
 {padding-left:10px;
 color: #377375;
-margin:3px 8px 8px 0px;}
+margin:3px 5px 5px 0px;}
 .dashboard-block-full div.sectionBody a i:hover, .wm_button a i:hover{color: #e4e9ee!important;}
  
 .dashboard-block-full a.hometblink img{
-padding:10px; 
+padding:8px; 
 display:inline-block; 
 position:relative; 
 line-height:64px; 
@@ -2294,11 +2286,14 @@ background: #377375;
 -webkit-border-radius:3px; 
 border-radius:3px; 
 }
+.dashboard-block-full a.hometblink img:hover {
+background: #e4e9ee;
+}
 .wm_button a{
 	float: left;
 	display:block;
 	clear:both;
-	margin: 2px 5px 2px 5px;
+	margin: 2px 3px 2px 3px;
 	text-align: center;
 	font-weight:bold;
 	color: #333333;
