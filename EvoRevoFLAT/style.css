@@ -2269,7 +2269,7 @@ border:none;
 padding-left:0px;
 color: #555;
 margin:3px 8px 8px 0px;}
-.dashboard-block-full div.sectionBody a i
+.dashboard-block-full div.sectionBody a i, .dashboard-block-half div.sectionBody a i
 {padding-left:10px;
 color: #377375;
 margin:3px 5px 5px 0px;}
@@ -2311,8 +2311,10 @@ color: #d7d7d7;
 text-align:center;
 }
 
-.wm_button.smeraldRevo a i{color: #377375!important;}
-.wm_button.azureRevo a i{color: #e4e9ee!important;}
+.green2 {color: #6dbe3e!important;}
+.red2 {color: #ea4848!important;}
+.blueberry {color: #466baf!important;}
+
 .wm_button.green a i{color: #aece4e!important;}
 .wm_button.green2 a i{color: #6dbe3e!important;}
 .wm_button.red a i{color: #e77755!important;}
@@ -2328,8 +2330,6 @@ text-align:center;
 .wm_button.purplewine a i{color: #b94b6f!important;}
 .wm_button.orange a i{color: #FF9900!important;}
 
-.smeraldRevo a.hometblink img{background: #377375;}
-.azureRevo a.hometblink img{background: #e4e9ee;}
 .green a.hometblink img{background: #aece4e;}
 .green2 a.hometblink img{background: #6dbe3e;}
 .red a.hometblink img{background: #e77755;}
