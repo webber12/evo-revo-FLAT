@@ -10,6 +10,9 @@ Mixed with MODx Flat https://github.com/Nicola1971/MODxFLAT-Theme
 
 ## News and Updates
 
+### RC 1.2 
+* font-awesome-4.2.0
+
 ### RC1.1 (first release)
 
 * Dashboard Revolution style (from MODx Flat https://github.com/Nicola1971/MODxFLAT-Theme)
