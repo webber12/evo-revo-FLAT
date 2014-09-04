@@ -16,27 +16,25 @@ function doHideShow(divName){
 <div class="dashboard">
  <h1>[+site_name+]</h1>
                 <!--social links box-->
-[+OnManagerWelcomeHome+]
+                [+OnManagerWelcomePrerender+]
+
      <!--end social links--->
 <div class="dashboard-block-full">
-<div class="sectionHeader">[+welcome_title+]</div>
+<div class="sectionHeader"><i class="fa fa-home"></i> [+welcome_title+]<a href="javascript:void(null);" onclick="doHideShow('idShowHide1');"><i class="fa fa-bars expandbuttn"></i></a></div>
 			<div id="idShowHide1" class="sectionBody">
 
 
-                         <span class="wm_button smeraldRevo" style="border:0">[+OnManagerWelcomePrerender+]</span>
-                       <span class="wm_button smeraldRevo" style="border:0">[+SecurityIcon+]</span>
-                        <div class="wm_button smeraldRevo" style="border:0">[+WebUserIcon+]</div>
-                        <div class="wm_button smeraldRevo" style="border:0">[+ModulesIcon+]</div>
-                        <div class="wm_button smeraldRevo" style="border:0">[+ResourcesIcon+]</div>
-                        <div class="wm_button smeraldRevo" style="border:0">[+BackupIcon+]</div>
+                         <span class="wm_button white" style="border:0">[+Logo+]</span>
+                       <span class="wm_button red" style="border:0">[+SecurityIcon+]</span>
+                        <div class="wm_button green" style="border:0">[+WebUserIcon+]</div>
+                        <div class="wm_button azure" style="border:0">[+ModulesIcon+]</div>
+                        <div class="wm_button yellow" style="border:0">[+ResourcesIcon+]</div>
+                        <div class="wm_button violet" style="border:0">[+BackupIcon+]</div>
                                            <br style="clear:both;height:1px;margin-top: -1px;line-height:1px;font-size:1px;" />
 
 
-          </div>
-
-                                </div>
-
-
+          </div>                 </div>
+                                 [+OnManagerWelcomeHome+]
                                   <!-- custom links-->
                                 [+OnManagerWelcomeRender+]
                                 <!--end custom links-->
@@ -47,9 +45,9 @@ function doHideShow(divName){
 		<!-- user -->
 		<div class="dashboard-block-half">
 
-			<div class="sectionHeader">Info</div><div id="idShowHide2" class="sectionBody">
+			<div class="sectionHeader"><i class="fa fa-info-circle"></i> Info<a href="javascript:void(null);" onclick="doHideShow('idShowHide2');"><i class="fa fa-bars expandbuttn"></i></a></div><div id="idShowHide2" class="sectionBody">
             <div class="dashboard-block-content">
-			[+UserInfo+]
+			  <i class="fa fa-info-circle fa-5x"></i>	[+UserInfo+]
                 </div>
 			</div>
 		</div>
@@ -58,9 +56,9 @@ function doHideShow(divName){
 		<div class="dashboard-block-half">
 
 
-			<div class="sectionHeader">Inbox</div><div id="idShowHide3" class="sectionBody">
+			<div class="sectionHeader"><i class="fa fa-inbox"></i> Inbox<a href="javascript:void(null);" onclick="doHideShow('idShowHide3');"><i class="fa fa-bars expandbuttn"></i></a></div><div id="idShowHide3" class="sectionBody">
              <div class="dashboard-block-content">
-			  [+MessageInfo+]
+			  <i class="fa fa-inbox fa-5x"></i>	[+MessageInfo+]
 </div>
 			</div>
 		</div>
@@ -78,9 +76,9 @@ function doHideShow(divName){
 		<!-- modx news -->
 		<div class="dashboard-block-half">
 
-			<div class="sectionHeader">[+modx_news_title+]</div><div id="idShowHide4" class="sectionBody">
+			<div class="sectionHeader"><i class="fa fa-rss"></i> [+modx_news_title+]<a href="javascript:void(null);" onclick="doHideShow('idShowHide4');"><i class="fa fa-bars expandbuttn"></i></a></div><div id="idShowHide4" class="sectionBody">
             <div class="dashboard-block-content">
-			  [+modx_news_content+]
+			  <i class="fa fa-rss fa-5x"></i>	[+modx_news_content+]
                 </div>
 			</div>
 		</div>
@@ -89,9 +87,9 @@ function doHideShow(divName){
 		<div class="dashboard-block-half">
 
 
-			<div class="sectionHeader">[+modx_security_notices_title+]</div><div id="idShowHide5" class="sectionBody">
+			<div class="sectionHeader"><i class="fa fa-exclamation-triangle"></i> [+modx_security_notices_title+]<a href="javascript:void(null);" onclick="doHideShow('idShowHide5');"><i class="fa fa-bars expandbuttn"></i></a></div><div id="idShowHide5" class="sectionBody">
              <div class="dashboard-block-content">
-			 [+modx_security_notices_content+]</div>
+			  <i class="fa fa-exclamation-triangle fa-5x"></i>	[+modx_security_notices_content+]</div>
 			</div>
 		</div>
        </div>
@@ -99,9 +97,9 @@ function doHideShow(divName){
 		<!-- recent activities -->
 		<div class="dashboard-block-half">
 
-			<div class="sectionHeader">[+activity_title+]</div><div id="idShowHide6" class="sectionBody">
+			<div class="sectionHeader"><i class="fa fa-pencil-square-o"></i> [+activity_title+]<a href="javascript:void(null);" onclick="doHideShow('idShowHide6');"><i class="fa fa-bars expandbuttn"></i></a></div><div id="idShowHide6" class="sectionBody">
 
-			[+RecentInfo+]
+			 <i class="fa fa-pencil-square-o  fa-5x"></i>	[+RecentInfo+]
 			</div>
 		</div>
 
@@ -110,8 +108,8 @@ function doHideShow(divName){
 		<!-- online info -->
 		<div class="dashboard-block-half" style="padding-left:0; padding-right:0">
 
-			<div class="sectionHeader">[+onlineusers_title+]</div><div id="idShowHide7" class="sectionBody">
-			[+OnlineInfo+]
+			<div class="sectionHeader"><i class="fa fa-users"></i> [+onlineusers_title+]<a href="javascript:void(null);" onclick="doHideShow('idShowHide7');"><i class="fa fa-bars expandbuttn"></i></a></div><div id="idShowHide7" class="sectionBody">
+			  <i class="fa fa-users  fa-5x"></i> 	[+OnlineInfo+]
 			</div>
 		</div>
 
